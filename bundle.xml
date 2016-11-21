@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>form_currency</name>
+        <label>Currency form field</label>
+        <description>Provides currency support for forms</description>
+        <version>1.0.0</version>
+        <namespace>\adapt\forms\currency</namespace>
+        <type>form_field</type>
+        <license>MIT</license>
+        <copyright>2016 Matt Bruton</copyright>
+        <depends_on>
+            <bundle>
+                <name>forms</name>
+                <version>1.0</version>
+            </bundle>
+            <bundle>
+                <name>currency</name>
+                <version>1.0</version>
+            </bundle>
+            <bundle>
+                <name>adapt</name>
+                <version>2.0</version>
+            </bundle>
+        </depends_on>
+        <schema>
+        <add>
+          <table name="form_field_type">
+            <record>
+              <name>Currency picker</name>
+              <view>\adapt\forms\currency\view_field_currency</view>
+            </record>
+          </table>
+        </add>
+    </bundle>
+</adapt_framework>

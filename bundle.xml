@@ -19,18 +19,22 @@
                 <version>1.0</version>
             </bundle>
             <bundle>
+                <name>jquery</name>
+            </bundle>
+            <bundle>
                 <name>adapt</name>
                 <version>2.0</version>
             </bundle>
         </depends_on>
         <schema>
-        <add>
-          <table name="form_field_type">
-            <record>
-              <name>Currency picker</name>
-              <view>\adapt\forms\currency\view_field_currency</view>
-            </record>
-          </table>
-        </add>
+            <add>
+              <table name="form_field_type">
+                <record>
+                  <name>Currency picker</name>
+                  <view>\adapt\forms\currency\view_field_currency</view>
+                </record>
+              </table>
+            </add>
+        </schema>
     </bundle>
 </adapt_framework>

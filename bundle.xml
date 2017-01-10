@@ -6,6 +6,8 @@
         <description>Provides currency support for forms</description>
         <version>1.0.0</version>
         <namespace>\adapt\forms\currency</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
         <type>form_field</type>
         <license>MIT</license>
         <copyright>2016 Matt Bruton</copyright>

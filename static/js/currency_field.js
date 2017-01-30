@@ -20,7 +20,7 @@
                     var $this = $(this);
                     var $option = $this.find('option[value="' + $this.val() + '"]');
                     var $form = $this.parents('form');
-                    var $fields = $form.find('input[data-validator="currency"]');
+                    var $fields = $form.find('input[data-validator="currency"],input[data-validator="currency_positive_non_zero"]');
                     
                     var format = {
                         name: $option.text(),

@@ -43,6 +43,14 @@ namespace adapt\forms\currency{
             }
         }
         
+        public static function unescape($string) {
+            return $string;
+        }
+        
+        public static function escape($string) {
+            return $string;
+        }
+        
     }
     
 }

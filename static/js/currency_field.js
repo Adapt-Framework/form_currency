@@ -101,9 +101,15 @@
 
                             if (format.iso_code != ''){
                                 if ($this.val()) {
-                                    var value = adapt.sanitize.unformat('currency', $this.val());
-                                    value = adapt.currency.format_with_format(value, format);
-                                    $this.val(value);
+
+                                    /* Check to see if the value is a number or empty */
+                                    if(!isNaN(value) && value !== '') {
+                                        var value = adapt.sanitize.unformat('currency', $this.val());
+                                        value = adapt.currency.format_with_format(value, format);
+                                        $this.val(value);    
+                                    } else {
+                                        $this.val('');
+                                    }
                                 }
                             }
                             

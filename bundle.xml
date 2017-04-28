@@ -14,7 +14,7 @@
         <depends_on>
             <bundle>
                 <name>forms</name>
-                <version>1.0</version>
+                <version>0.8</version>
             </bundle>
             <bundle>
                 <name>currency</name>

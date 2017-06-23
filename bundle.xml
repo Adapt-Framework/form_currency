@@ -9,8 +9,16 @@
         <version_status>release</version_status>
         <availability>public</availability>
         <type>form_field</type>
+        <copyright>2017 Matt Bruton</copyright>
         <license>MIT</license>
-        <copyright>2016 Matt Bruton</copyright>
+        <vendor>
+            <name>Adapt Framework</name>
+            <website>https://www.adaptframework.com</website>
+        </vendor>
+        <author>
+            <name>Matt Bruton</name>
+            <email>matt.bruton@gmail.com</email>
+        </author>
         <depends_on>
             <bundle>
                 <name>forms</name>

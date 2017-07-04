@@ -35,7 +35,7 @@ namespace adapt\forms\currency{
                         'data-symbol-partial-html' => $result['symbol_partial_html']
                     ]
                 );
-                if (isset($user_data[$form_data['key_name']]) && $user_data[$form_data['key_name']] == $result['currency_id']) {
+                if (isset($user_data[$form_data['field_name']]) && $user_data[$form_data['field_name']] == $result['currency_id']) {
                     $option->attr('selected', 'selected');
                 }
                 
